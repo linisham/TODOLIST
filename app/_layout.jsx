@@ -18,7 +18,7 @@ const RootLayout = () => {
       <Stack
         screenOptions={{
           headerStyle: {
-            backgroundColor: '#ff0000',
+            backgroundColor: '#7f684c',
           },
           headerTintColor: '#fff',
           headerTitleStyle: {
@@ -29,7 +29,7 @@ const RootLayout = () => {
           contentStyle: {
             paddingHorizontal: 10,
             paddingTop: 10,
-            backgroundColor: '#fff',
+            backgroundColor: '#b2a493',
           },
         }}
       >
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
     marginRight: 15,
     paddingVertical: 5,
     paddingHorizontal: 10,
-    backgroundColor: '#ff3b30',
+    backgroundColor: '#deb7ff',
     borderRadius: 8,
   },
   logoutText: {
-    color: '#fff',
+    color: '#deb7ff',
     fontSize: 16,
     fontWeight: 'bold',
   },

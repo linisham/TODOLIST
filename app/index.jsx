@@ -24,7 +24,7 @@ const HomeScreen = () => {
   if (loading) {
     return (
       <View style={styles.centeredContainter}>
-        <ActivityIndicator size='large' color='#007bff' />
+        <ActivityIndicator size='large' color='#f0b4cf' />
       </View>
     );
   }
@@ -32,16 +32,16 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <Image source={PostItImage} style={styles.image} />
-      <Text style={styles.title}>Welcome TODO LIST App</Text>
+      <Text style={styles.title}>Welcome Todo  App</Text>
       <Text style={styles.subtitle}>
-        Capture your thoughts anytime, anywhere
+        UNLEASH YOUR THOUGHTS HERE
       </Text>
 
       <TouchableOpacity
         style={styles.button}
         onPress={() => router.push('/notes')}
       >
-        <Text style={styles.buttonText}>Get Started</Text>
+        <Text style={styles.buttonText}> Lets Get Started</Text>
       </TouchableOpacity>
     </View>
   );
